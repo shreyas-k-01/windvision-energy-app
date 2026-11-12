@@ -1,12 +1,14 @@
+
 services:
   - type: web
     name: windvision-api
     runtime: docker
+    plan: free
     dockerContext: ./backend
     dockerfilePath: ./backend/Dockerfile
     envVars:
       - key: DEFAULT_DECISION_MONTH
-        value: 2026-01
+        value: "2026-01"
       - key: DEFAULT_CUTOFF_TIME
         value: "10:00"
       - key: ALLOWED_ORIGINS
