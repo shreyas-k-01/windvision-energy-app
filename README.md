@@ -1,3 +1,28 @@
+## 🚀 Live Project
+
+**Live Application:** https://windvision-energy-app-tau.vercel.app/
+
+**GitHub Repository:** https://github.com/shreyas-k-01/windvision-energy-app
+
+**Backend API:** https://windvision-api.onrender.com
+
+**API Documentation:** https://windvision-api.onrender.com/docs
+
+## 🛠 Technology Stack
+
+- Frontend: React.js, Vite
+- Backend: Python, FastAPI
+- Data Source: Elexon BMRS API
+- Containerization: Docker
+- Frontend Deployment: Vercel
+- Backend Deployment: Render
+
+## 📌 Project Overview
+
+WindVision is a day-ahead wind generation forecasting and decision-support application designed to help electricity procurement teams understand forecasted wind generation and evaluate historical forecast accuracy.
+
+It uses Elexon BMRS wind forecast and actual generation data to analyse forecast errors and provide insights for procurement decisions.
+
 # WindVision — Day-ahead Wind Forecast Decision Support
 
 WindVision is a React + FastAPI pilot for a UK electricity utility's day-ahead procurement team. It answers the two requirements in the supplied challenge: (1) show the latest Elexon wind generation forecast available at a selected decision cutoff, and (2) quantify how accurate those forecasts were against actual wind generation.
